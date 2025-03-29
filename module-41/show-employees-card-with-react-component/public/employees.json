@@ -6,7 +6,8 @@
     "position": "Software Engineer",
     "department": "IT",
     "salary": 75000,
-    "email": "alice.johnson@example.com"
+    "email": "alice.johnson@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "position": "Project Manager",
     "department": "Operations",
     "salary": 90000,
-    "email": "bob.smith@example.com"
+    "email": "bob.smith@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "position": "UI/UX Designer",
     "department": "Design",
     "salary": 70000,
-    "email": "charlie.brown@example.com"
+    "email": "charlie.brown@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/3.jpg"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "position": "HR Manager",
     "department": "Human Resources",
     "salary": 85000,
-    "email": "david.wilson@example.com"
+    "email": "david.wilson@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "position": "Marketing Executive",
     "department": "Marketing",
     "salary": 65000,
-    "email": "emma.davis@example.com"
+    "email": "emma.davis@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "position": "DevOps Engineer",
     "department": "IT",
     "salary": 88000,
-    "email": "frank.thomas@example.com"
+    "email": "frank.thomas@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "position": "Data Analyst",
     "department": "Analytics",
     "salary": 72000,
-    "email": "grace.lee@example.com"
+    "email": "grace.lee@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "position": "Finance Manager",
     "department": "Finance",
     "salary": 95000,
-    "email": "henry.adams@example.com"
+    "email": "henry.adams@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "position": "Content Writer",
     "department": "Content",
     "salary": 60000,
-    "email": "ivy.martinez@example.com"
+    "email": "ivy.martinez@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg"
   },
   {
     "id": 10,
@@ -87,6 +96,7 @@
     "position": "QA Engineer",
     "department": "Quality Assurance",
     "salary": 78000,
-    "email": "jack.robinson@example.com"
+    "email": "jack.robinson@example.com",
+    "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg"
   }
 ]
