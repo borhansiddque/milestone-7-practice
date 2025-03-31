@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  background-color: blueviolet;
+}
+
+.box {
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.box-1 {
+  order: 2;
+}
+/* .box-2 {
+  order: 2;
+}
+.box-3 {
+  order: 3;
+}
+.box-4 {
+  order: 4;
+}
+.box-5 {
+  order: 5;
+}
+.box-6 {
+  order: 6;
+}
+.box-7 {
+  order: 7;
+}
+.box-8 {
+  order: 8;
+}
+.box-9 {
+  order: 9;
+}
+.box-10 {
+  order: 10;
+}
+.box-11 {
+  order: 11;
+}
+.box-12 {
+  order: 12;
+}
+.box-13 {
+  order: 13;
+}
+.box-14 {
+  order: 14;
+} */
+
+.bg-one {
+  background-image: linear-gradient(to right, rgba(243, 212, 37, 0.925), rgba(255, 166, 0, 0.932));
+}
+
+.bg-two {
+  background-image: linear-gradient(to right, rgb(78, 144, 231), rgb(205, 73, 238));
+}
+
+.bg-three {
+  background-image: linear-gradient(to left, rgba(235, 213, 204, 0.945), rgba(135, 207, 235, 0.966));
+}
