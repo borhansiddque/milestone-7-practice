@@ -34,10 +34,7 @@
 }
 
 .card {
-  margin-top: 20px;
   padding: 2em;
-  border: 2px solid tomato;
-  border-radius: 10px;
 }
 
 .read-the-docs {
