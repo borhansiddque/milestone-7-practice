@@ -17,6 +17,7 @@ function App() {
       <Friends name={"Rohan"} age={20} hasVehicle={"Yes"}></Friends>
       <Friends name={"Mankir Poya"} age={22} hasVehicle={"No"}></Friends>
       <Girlfriend name={"Adiba"} phone={"01822334455"} trueLove={"Yes"}></Girlfriend>
+      <Subject subject={"Accounting"} number={89}></Subject>
     </>
   )
 }
@@ -25,7 +26,6 @@ function Person() {
   return <div className="card">
       <h4>Hello I am from Person Component</h4>
     </div>
-  
 }
 
 function FavFood() {
@@ -66,6 +66,15 @@ function Girlfriend({name, phone, trueLove}) {
       <p>True Love: {trueLove}</p>
     </div>
   );
+}
+
+function Subject({subject, number}) {
+  return (
+    <div className='card'>
+      <h3>My Fav Subject is: {subject}</h3>
+      <p>Last exam i got number on this subject: {number}</p>
+    </div>
+  )
 }
 
 export default App
