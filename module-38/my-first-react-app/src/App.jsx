@@ -1,4 +1,6 @@
+import Actor from './Actor';
 import './App.css'
+import Singer from './Singer';
 import Todo from './Todo'
 
 function App() {
@@ -9,12 +11,33 @@ function App() {
     borderRadius: "10px"
   }
 
+  const actors = ["Hena", "Bappa Raj", "Omar Sunny", "Salman Shah", "Josim", "Anwar"];
+
+  const singers = [
+    {id: 1, name: "Dr. Mahfuz", age: 50},
+    {id: 2, name: "Tahasan", age: 40},
+    {id: 3, name: "Runa Laila", age: 55},
+    {id: 4, name: "Habib Wahid", age: 45},
+    {id: 5, name: "Asif Akbar", age: 55},
+  ];
+
   return (
     <>
       <h1 style={headingStyle}>React App</h1>
-      <Todo task={"Learn JavaScript"} isDone={true} time={100}></Todo>
+
+      {
+        actors.map(actor => <Actor actor={actor}></Actor>)
+      }
+
+      {
+        singers.map(singer => <Singer key={singer.id} singer={singer}></Singer>)
+      }
+
+
+
+      {/* <Todo task={"Learn JavaScript"} isDone={true} time={100}></Todo>
       <Todo task={"Learn React JS"} isDone={false}></Todo>
-      <Todo task={"Learn HTML"} isDone={true}></Todo>
+      <Todo task={"Learn HTML"} isDone={true}></Todo> */}
 
       {/* <Person></Person>
       <FavFood/>
