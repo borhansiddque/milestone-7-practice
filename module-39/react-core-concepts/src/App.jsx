@@ -1,4 +1,5 @@
 import "./App.css";
+import Batsman from "./Batsman";
 import Counter from "./Counter";
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
 
   return (
     <>
-      <h3>My React App</h3>
-
+      <h2>My React App</h2>
+      <Batsman></Batsman>
       <Counter></Counter>
 
       <button onClick={handleClick}>Click Me</button>
