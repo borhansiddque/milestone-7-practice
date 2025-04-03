@@ -18,6 +18,8 @@ function App() {
       <Friends name={"Mankir Poya"} age={22} hasVehicle={"No"}></Friends>
       <Girlfriend name={"Adiba"} phone={"01822334455"} trueLove={"Yes"}></Girlfriend>
       <Subject subject={"Accounting"} number={89}></Subject>
+      <ProfileCard name={"Borhan Siddque"} title={"Font-end Developer"} imageUrl={"https://images.pexels.com/photos/1040879/pexels-photo-1040879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}></ProfileCard>
+      <ProfileCard name={"Italo Melo"} imageUrl={"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}></ProfileCard>
     </>
   )
 }
@@ -73,6 +75,17 @@ function Subject({subject, number}) {
     <div className='card'>
       <h3>My Fav Subject is: {subject}</h3>
       <p>Last exam i got number on this subject: {number}</p>
+    </div>
+  )
+}
+
+function ProfileCard({name, title = "Title Not Found", imageUrl}) {
+  return (
+    <div className='card'>
+      <img src={imageUrl} alt="" width={"100px"} height={"100px"} />
+      <h2>{name}</h2>
+      <h5>{title}</h5>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem dolorem officiis, deserunt hic illo nihil explicabo accusantium libero possimus similique molestiae eum consequatur consequuntur itaque aliquid vitae consectetur iusto deleniti.</p>
     </div>
   )
 }
