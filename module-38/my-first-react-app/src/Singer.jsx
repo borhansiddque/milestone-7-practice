@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-function Singer({singer}) {
-  const {name, age} = singer;
+function Singer({ singer }) {
+  const { name, age } = singer;
   return (
-    <div className='card'>
+    <div className="card">
       <h3>Name: {name}</h3>
       <p>Age: {age}</p>
     </div>
