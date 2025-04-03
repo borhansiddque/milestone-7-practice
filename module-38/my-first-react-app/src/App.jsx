@@ -1,4 +1,5 @@
 import './App.css'
+import Todo from './Todo'
 
 function App() {
   const headingStyle = {
@@ -11,7 +12,11 @@ function App() {
   return (
     <>
       <h1 style={headingStyle}>React App</h1>
-      <Person></Person>
+      <Todo task={"Learn JavaScript"} isDone={true} time={100}></Todo>
+      <Todo task={"Learn React JS"} isDone={false}></Todo>
+      <Todo task={"Learn HTML"} isDone={true} time={50}></Todo>
+
+      {/* <Person></Person>
       <FavFood/>
       <Sleep></Sleep>
       <Friends name={"Rohan"} age={20} hasVehicle={"Yes"}></Friends>
@@ -19,7 +24,7 @@ function App() {
       <Girlfriend name={"Adiba"} phone={"01822334455"} trueLove={"Yes"}></Girlfriend>
       <Subject subject={"Accounting"} number={89}></Subject>
       <ProfileCard name={"Borhan Siddque"} title={"Font-end Developer"} imageUrl={"https://images.pexels.com/photos/1040879/pexels-photo-1040879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}></ProfileCard>
-      <ProfileCard name={"Italo Melo"} imageUrl={"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}></ProfileCard>
+      <ProfileCard name={"Italo Melo"} imageUrl={"https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}></ProfileCard> */}
     </>
   )
 }
