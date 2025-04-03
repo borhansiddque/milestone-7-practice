@@ -14,7 +14,7 @@ function App() {
       <h1 style={headingStyle}>React App</h1>
       <Todo task={"Learn JavaScript"} isDone={true} time={100}></Todo>
       <Todo task={"Learn React JS"} isDone={false}></Todo>
-      <Todo task={"Learn HTML"} isDone={true} time={50}></Todo>
+      <Todo task={"Learn HTML"} isDone={true}></Todo>
 
       {/* <Person></Person>
       <FavFood/>

@@ -41,10 +41,10 @@ import React from "react";
 // }
 
 // Conditional Rendering : 6 Use variable
-export default function Todo({task, isDone}) {
+export default function Todo({task, isDone, time}) {
   let listItem ;
   if (isDone === true) {
-    listItem = <li>Done: {task}</li>
+    listItem = <li>Task: {task} Done: {time ? "i am done" : "not done yet"}</li>
   } else {
     listItem = <li>Pending: {task}</li>
   }
