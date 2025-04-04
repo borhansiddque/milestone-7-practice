@@ -1,5 +1,5 @@
 .bottle {
-  border: 2px solid #000;
+  border: 2px solid #eee;
   background-color: bisque;
   padding: 10px;
   border-radius: 10px;
@@ -8,4 +8,6 @@
 
 .bottle img {
   background: #fff;
+  border: 1px solid #000;
+  border-radius: 8px;
 }
