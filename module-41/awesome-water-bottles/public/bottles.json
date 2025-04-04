@@ -5,7 +5,7 @@
     "capacity_ml": 1000,
     "material": "Stainless Steel",
     "color": "Black",
-    "price_usd": 35.99,
+    "price": 35.99,
     "imageUrl": "https://www.hydroflask.com/media/catalog/product/cache/b2f1ce2dfe10d3d31bf2056bf6e0d10f/w/t/wt32bfs001-32-oz-wide-flex-straw-travel-bottle-black-straight.jpg"
   },
   {
@@ -14,7 +14,7 @@
     "capacity_ml": 1000,
     "material": "Plastic",
     "color": "Blue",
-    "price_usd": 12.99,
+    "price": 12.99,
     "imageUrl": "https://nalgene.com/wp-content/uploads/2024/01/32oz-WM-Periwinkle-Front_V2.jpg"
   },
   {
@@ -23,7 +23,7 @@
     "capacity_ml": 750,
     "material": "Plastic",
     "color": "Green",
-    "price_usd": 14.99,
+    "price": 14.99,
     "imageUrl": "https://www.camelbak.com/dw/image/v2/BDBJ_PRD/on/demandware.static/-/Sites-camelbak-master-catalog/default/dw633ad940/images/large/1515303060.jpg?sw=650&sh=650&sm=fit"
   },
   {
@@ -32,7 +32,7 @@
     "capacity_ml": 710,
     "material": "Stainless Steel",
     "color": "Silver",
-    "price_usd": 24.99,
+    "price": 24.99,
     "imageUrl": "https://newellbrands.imgix.net/9f81e42c-b443-3747-8cae-4968a8760a05/9f81e42c-b443-3747-8cae-4968a8760a05.jpg?auto=format,compress&w=400&h=400"
   },
   {
@@ -41,7 +41,7 @@
     "capacity_ml": 500,
     "material": "Stainless Steel",
     "color": "White",
-    "price_usd": 30.0,
+    "price": 30.0,
     "imageUrl": "https://www.swell.com/cdn/shop/files/Swell-Water-Bottle-17oz-White-Moonstone-Front.jpg?v=1741665372&width=1000"
   },
   {
@@ -50,7 +50,7 @@
     "capacity_ml": 700,
     "material": "Stainless Steel",
     "color": "Blue",
-    "price_usd": 25.99,
+    "price": 25.99,
     "imageUrl": "https://mythermoflask.com/cdn/shop/files/TF_SP25_Neons_PDP_55069_2048x20482_d6361584-10e0-4802-800f-02db5d208436.png?v=1742827170"
   },
   {
@@ -59,8 +59,8 @@
     "capacity_ml": 600,
     "material": "Plastic",
     "color": "Gray",
-    "price_usd": 19.99,
-    "imageUrl": "https://mcprod.ecom.clxdtc.com/media/catalog/product/2/6/268950.034_brt_carbon_32oz_frt_hero_filter_s01_12-07-20-1114.psd.jpg?optimize=low&fit=bounds&height=344&width=366&auto=webp&format=pjpg"
+    "price": 19.99,
+    "imageUrl": "https://t3.ftcdn.net/jpg/01/90/30/08/360_F_190300850_yQHwOI0qRauIlAnfU3iCd4x3Vpnuzi6n.webp"
   },
   {
     "id": 8,
@@ -68,7 +68,7 @@
     "capacity_ml": 650,
     "material": "Stainless Steel",
     "color": "Red",
-    "price_usd": 22.5,
+    "price": 22.5,
     "imageUrl": "https://takeyausa.com/cdn/shop/products/52316-Sport-Spout-22-ProFire-angle_x760.png?v=1688766488"
   },
   {
@@ -77,7 +77,7 @@
     "capacity_ml": 800,
     "material": "Stainless Steel",
     "color": "Orange",
-    "price_usd": 28.99,
+    "price": 28.99,
     "imageUrl": "https://www.kleankanteen.com/cdn/shop/products/K32TKWCG-MG-T_1000x.jpg?v=1704406739"
   },
   {
@@ -86,7 +86,7 @@
     "capacity_ml": 650,
     "material": "Glass",
     "color": "Pink",
-    "price_usd": 26.99,
+    "price": 26.99,
     "imageUrl": "https://lifefactory.com/cdn/shop/products/lif-o-lg4321mdr4_main.jpg?v=1708101222&width=540"
   }
 ]
