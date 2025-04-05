@@ -88,5 +88,14 @@
     "color": "Pink",
     "price": 26.99,
     "imageUrl": "https://lifefactory.com/cdn/shop/products/lif-o-lg4321mdr4_main.jpg?v=1708101222&width=540"
+  },
+  {
+    "id": 11,
+    "name": "Stanley IceFlow Tumbler",
+    "capacity_ml": 890,
+    "material": "Stainless Steel",
+    "color": "Teal",
+    "price": 34.95,
+    "imageUrl": "https://www.stanley1913.com/cdn/shop/files/Web_PNG_Square-Stan_The_IceFlow_Flip_Straw_Tumbler_30OZ_-Iris_-_Front.png?v=1739914152&width=1200"
   }
 ]

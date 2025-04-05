@@ -5,12 +5,15 @@ import "./Bottles.css"
 const Bottles = ({ bottlesPromise }) => {
   const bottles = use(bottlesPromise);
 
-  return (
-    <div className="grid">
+  return ( 
+  <>
+    <h3 className="text-3xl">Bottles: {bottles.length}</h3>
+    <div className="grid mt-10">
       {
         bottles.map(bottle => <Bottle key={bottle.id} bottle={bottle}></Bottle>)
       }
     </div>
+  </>
   );
 };
 
